@@ -16,7 +16,7 @@ RUN apt-get install -yq libreadline-dev \
 
 # install openresty
 RUN curl -SL https://openresty.org/download/openresty-1.9.7.4.tar.gz | tar xzvf - -C /
-RUN cd openresty*
+WORKDIR /openresty-1.9.7.4
 RUN ./configure --prefix=/etc/openresty \
                 --with-luajit \
                 --without-http_redis2_module \
