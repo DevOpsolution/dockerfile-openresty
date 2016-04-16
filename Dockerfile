@@ -33,8 +33,7 @@ RUN ./configure --prefix=/etc/openresty \
                 --without-http_redis2_module \
                 --with-http_iconv_module \
                 --with-http_postgres_module
-    && make \
-    && make install
+RUN make && make install
 
 EXPOSE 8000
 
