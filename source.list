@@ -1,10 +1,4 @@
-deb http://mirrors.aliyuncs.com/ubuntu/ jessie main restricted universe multiverse
-deb http://mirrors.aliyuncs.com/ubuntu/ jessie-security main restricted universe multiverse
-deb http://mirrors.aliyuncs.com/ubuntu/ jessie-updates main restricted universe multiverse
-deb http://mirrors.aliyuncs.com/ubuntu/ jessie-proposed main restricted universe multiverse
-deb http://mirrors.aliyuncs.com/ubuntu/ jessie-backports main restricted universe multiverse
-deb-src http://mirrors.aliyuncs.com/ubuntu/ jessie main restricted universe multiverse
-deb-src http://mirrors.aliyuncs.com/ubuntu/ jessie-security main restricted universe multiverse
-deb-src http://mirrors.aliyuncs.com/ubuntu/ jessie-updates main restricted universe multiverse
-deb-src http://mirrors.aliyuncs.com/ubuntu/ jessie-proposed main restricted universe multiverse
-deb-src http://mirrors.aliyuncs.com/ubuntu/ jessie-backports main restricted universe multiverse
+deb http://mirrors.aliyun.com/debian/ jessie main non-free contrib
+deb http://mirrors.aliyun.com/debian/ jessie-proposed-updates main non-free contrib
+deb-src http://mirrors.aliyun.com/debian/ jessie main non-free contrib
+deb-src http://mirrors.aliyun.com/debian/ jessie-proposed-updates main non-free contrib
